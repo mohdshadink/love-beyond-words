@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love in Code 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Positioned the Toggle Music button in the top-left corner -->
+    <button class="music-button" onclick="toggleMusic()">🎵 Toggle Music</button>
+
+    <audio id="bg-music" autoplay loop hidden>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="background"></div> <!-- Fullscreen Background -->
+
+    <div class="container">
+        <h1 class="title">💖 Love, Beyond Words 💖</h1>
+
+        <div class="heart-animation"></div>
+
+        <div class="letter-box">
+            <p class="letter">
+                My Dearest Love,<br><br>
+                Every beat of my heart whispers your name. You are the melody that fills my days, the warmth that lights up my nights. 
+                With you, love is not just a feeling—it’s the most beautiful journey I never want to end.
+                <br><br>
+                Forever & Always,<br>💖
+            </p>
+        </div>
+
+        <button class="button" onclick="showHearts()">💌 Send Love</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
